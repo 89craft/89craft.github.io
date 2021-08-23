@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/src/media/computer-graphics/34 - ENGR255_Assign5_Dogfight_RyanH.mp4
+/src/media/game-dev/20 - Sailing.mp4
+/src/media/game-dev/21 - Chunks.mp4
+/src/media/game-dev/22 - Full.mp4
+/src/media/game-dev/31 - vrSkiSim.mp4
+/src/media/web-dev/01 - FinalPresentation.mp4
