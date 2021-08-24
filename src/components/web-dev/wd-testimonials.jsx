@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   Typography,
-  CssBaseline,
   makeStyles,
 } from '@material-ui/core';
-//import jwt_decode from 'jwt-decode';
-import WD_Footer from './wd-footer';
-import globalStyles from '../globalStyling.module.css';
+import globalStyles from '../../styling/globalStyling.module.css';
 
 const useStyles = makeStyles((theme) => ({}));
 
@@ -15,7 +12,6 @@ function Home() {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <CssBaseline />
       <Typography variant="h6" component="h1" className={classes.name}>
         R.H.
       </Typography>
@@ -25,7 +21,6 @@ function Home() {
       <Typography variant="h6" component="h1" className={classes.name}>
         Testimonials
       </Typography>
-      <WD_Footer />
     </div>
   );
 }

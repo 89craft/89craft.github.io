@@ -13,7 +13,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import React, { useState, useEffect } from 'react';
 //import { Link as RouterLink } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
-//import './app/app.css';
+import globalStyles from '../../styling/globalStyling.module.css';
 
 const menuOptions = [
   {
@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   header: {
     backgroundColor: '#FFFFFF',
     padding: theme.spacing(0),
-    position: 'static',
+    position: 'fixed',
   },
   name: {
     fontFamily: 'Laila, sans-serif',
@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function NavBar() {
+function WD_HEADER() {
   const classes = useStyles();
 
   const [state, setState] = useState({
@@ -154,9 +154,6 @@ function NavBar() {
           <Typography variant="h6" component="h1" className={classes.name}>
             R.H.
           </Typography>
-          <Typography variant="h6" component="h1" className={classes.name}>
-            Web Development
-          </Typography>
         </a>
       </div>
     );
@@ -189,4 +186,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default WD_HEADER;

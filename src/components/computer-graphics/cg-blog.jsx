@@ -5,8 +5,7 @@ import {
   makeStyles,
 } from '@material-ui/core';
 //import jwt_decode from 'jwt-decode';
-import CG_Footer from './cg-footer';
-import globalStyles from '../globalStyling.module.css';
+import globalStyles from '../../styling/globalStyling.module.css';
 
 const useStyles = makeStyles((theme) => ({}));
 
@@ -25,7 +24,6 @@ function Home() {
       <Typography variant="h6" component="h1" className={classes.name}>
         Blog
       </Typography>
-      <CG_Footer />
     </div>
   );
 }
