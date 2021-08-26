@@ -42,7 +42,7 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <ThemeProvider theme={cgTheme}>
+        {/*<ThemeProvider theme={cgTheme}>
           <Route path="/cg" component={CG_HEADER}></Route>
         </ThemeProvider>
         <ThemeProvider theme={gdTheme}>
@@ -50,7 +50,10 @@ const Router = () => {
         </ThemeProvider>
         <ThemeProvider theme={wdTheme}>
           <Route path="/wd" component={WD_HEADER}></Route>
-        </ThemeProvider>
+  </ThemeProvider>*/}
+        <Route path="/cg" component={CG_HEADER}></Route>
+        <Route path="/gd" component={GD_HEADER}></Route>
+        <Route path="/wd" component={WD_HEADER}></Route>
         <Route component={HEADER}></Route>
       </Switch>
       <div className="App-body">
@@ -86,7 +89,7 @@ const Router = () => {
           </ThemeProvider>
         </Switch>
         <Switch>
-          <ThemeProvider theme={cgTheme}>
+          {/*<ThemeProvider theme={cgTheme}>
             <Route path="/cg" component={CG_FOOTER}></Route>
           </ThemeProvider>
           <ThemeProvider theme={gdTheme}>
@@ -94,7 +97,10 @@ const Router = () => {
           </ThemeProvider>
           <ThemeProvider theme={wdTheme}>
             <Route path="/wd" component={WD_FOOTER}></Route>
-          </ThemeProvider>
+</ThemeProvider>*/}
+          <Route path="/cg" component={CG_FOOTER}></Route>
+          <Route path="/gd" component={GD_FOOTER}></Route>
+          <Route path="/wd" component={WD_FOOTER}></Route>
           <Route component={FOOTER}></Route>
         </Switch>
       </div>

@@ -37,14 +37,13 @@ const menuOptions = [
 // Styles to be changed - made navbar responsive for mobile use
 const useStyles = makeStyles((theme) => ({
   header: {
-    backgroundColor: '#FFFFFF',
     padding: theme.spacing(0),
     position: 'fixed',
+    boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.25)',
   },
   name: {
     fontFamily: 'Laila, sans-serif',
     fontWeight: 400,
-    color: '#343434',
   },
   menuButton: {
     fontFamily: 'Laila, sans-serif',
@@ -136,7 +135,7 @@ function GD_HEADER() {
           {...{
             to: href,
             color: 'inherit',
-            style: { textDecoration: 'none', color: 'black' },
+            style: { textDecoration: 'none' },
             key: label,
           }}
         >

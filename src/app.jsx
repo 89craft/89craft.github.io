@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={getTheme(pathname)}>
         <Router />
       </ThemeProvider>
     </div>

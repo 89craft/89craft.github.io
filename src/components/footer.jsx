@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {
   makeStyles,
   Button,
-  Toolbar,
+  Toolbar
 } from '@material-ui/core';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import globalStyles from '../styling/globalStyling.module.css';
@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
   },
   scrollTop: {
-    //color: 'grey',
+    cursor: 'pointer',
     position: 'fixed',
     bottom: '16px',
     right: '16px',
@@ -27,10 +27,12 @@ const useStyles = makeStyles((theme) => ({
   },
   toolbar: {
     display: 'flex',
+    boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.25)',
   },
   websiteHome: {
     textDecoration: 'none',
     float: 'left',
+    padding: theme.spacing(0),
   },
 }));
 
