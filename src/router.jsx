@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHistory, Switch, Route, HashRouter } from 'react-router-dom';
+import { useHistory, Switch, Route, BrowserRouter } from 'react-router-dom';
 // Page Components
 import HEADER from './components/header.jsx';
 import CG_HEADER from './components/computer-graphics/cg-header.jsx';
@@ -36,7 +36,7 @@ const Router = () => {
   const history = useHistory(); // for moving you around the site.
   
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Switch>
         <Route path="/cg" component={CG_HEADER}></Route>
         <Route path="/gd" component={GD_HEADER}></Route>
@@ -46,28 +46,28 @@ const Router = () => {
       <div className="App-body">
         <Switch>
           {/* The Switch decides which component to show based on the current URL.*/}
-          <Route exact path="/" component={Home}></Route>
-          <Route exact path="/home" component={Home}></Route>
-          <Route exact path="/about" component={About}></Route>
-          <Route exact path="/blog" component={Blog}></Route>
-          <Route exact path="/cg" component={CG_Home}></Route>
-          <Route exact path="/cg/home" component={CG_Home}></Route>
-          <Route exact path="/cg/about" component={CG_About}></Route>
-          <Route exact path="/cg/blog" component={CG_Blog}></Route>
-          <Route exact path="/cg/portfolio" component={CG_Portfolio}></Route>
-          <Route exact path="/cg/testimonials" component={CG_Testimonials}></Route>
-          <Route exact path="/gd" component={GD_Home}></Route>
-          <Route exact path="/gd/home" component={GD_Home}></Route>
-          <Route exact path="/gd/about" component={GD_About}></Route>
-          <Route exact path="/gd/blog" component={GD_Blog}></Route>
-          <Route exact path="/gd/portfolio" component={GD_Portfolio}></Route>
-          <Route exact path="/gd/testimonials" component={GD_Testimonials}></Route>
-          <Route exact path="/wd" component={WD_Home}></Route>
-          <Route exact path="/wd/home" component={WD_Home}></Route>
-          <Route exact path="/wd/about" component={WD_About}></Route>
-          <Route exact path="/wd/blog" component={WD_Blog}></Route>
-          <Route exact path="/wd/portfolio" component={WD_Portfolio}></Route>
-          <Route exact path="/wd/testimonials" component={WD_Testimonials}></Route>
+          <Route path="/cg" component={CG_Home}></Route>
+          <Route path="/cg/home" component={CG_Home}></Route>
+          <Route path="/cg/about" component={CG_About}></Route>
+          <Route path="/cg/blog" component={CG_Blog}></Route>
+          <Route path="/cg/portfolio" component={CG_Portfolio}></Route>
+          <Route path="/cg/testimonials" component={CG_Testimonials}></Route>
+          <Route path="/gd" component={GD_Home}></Route>
+          <Route path="/gd/home" component={GD_Home}></Route>
+          <Route path="/gd/about" component={GD_About}></Route>
+          <Route path="/gd/blog" component={GD_Blog}></Route>
+          <Route path="/gd/portfolio" component={GD_Portfolio}></Route>
+          <Route path="/gd/testimonials" component={GD_Testimonials}></Route>
+          <Route path="/wd" component={WD_Home}></Route>
+          <Route path="/wd/home" component={WD_Home}></Route>
+          <Route path="/wd/about" component={WD_About}></Route>
+          <Route path="/wd/blog" component={WD_Blog}></Route>
+          <Route path="/wd/portfolio" component={WD_Portfolio}></Route>
+          <Route path="/wd/testimonials" component={WD_Testimonials}></Route>
+          <Route path="/home" component={Home}></Route>
+          <Route path="/about" component={About}></Route>
+          <Route path="/blog" component={Blog}></Route>
+          <Route path="/" component={Home}></Route>
         </Switch>
         <Switch>
           <Route path="/cg" component={CG_FOOTER}></Route>
@@ -76,7 +76,7 @@ const Router = () => {
           <Route component={FOOTER}></Route>
         </Switch>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 export default Router;
