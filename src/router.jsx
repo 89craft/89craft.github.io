@@ -1,9 +1,5 @@
 import React from 'react';
-import { useHistory, Switch, Route, BrowserRouter } from 'react-router-dom';
-import { ThemeProvider } from '@material-ui/core/styles';
-import cgTheme from './styling/computer-graphics/cgTheme.jsx';
-import gdTheme from './styling/game-dev/gdTheme.jsx';
-import wdTheme from './styling/web-dev/wdTheme.jsx';
+import { useHistory, Switch, Route, HashRouter } from 'react-router-dom';
 // Page Components
 import HEADER from './components/header.jsx';
 import CG_HEADER from './components/computer-graphics/cg-header.jsx';
@@ -40,17 +36,8 @@ const Router = () => {
   const history = useHistory(); // for moving you around the site.
   
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
-        {/*<ThemeProvider theme={cgTheme}>
-          <Route path="/cg" component={CG_HEADER}></Route>
-        </ThemeProvider>
-        <ThemeProvider theme={gdTheme}>
-          <Route path="/gd" component={GD_HEADER}></Route>
-        </ThemeProvider>
-        <ThemeProvider theme={wdTheme}>
-          <Route path="/wd" component={WD_HEADER}></Route>
-  </ThemeProvider>*/}
         <Route path="/cg" component={CG_HEADER}></Route>
         <Route path="/gd" component={GD_HEADER}></Route>
         <Route path="/wd" component={WD_HEADER}></Route>
@@ -63,48 +50,33 @@ const Router = () => {
           <Route exact path="/home" component={Home}></Route>
           <Route exact path="/about" component={About}></Route>
           <Route exact path="/blog" component={Blog}></Route>
-          <ThemeProvider theme={cgTheme}>
-            <Route exact path="/cg" component={CG_Home}></Route>
-            <Route exact path="/cg/home" component={CG_Home}></Route>
-            <Route exact path="/cg/about" component={CG_About}></Route>
-            <Route exact path="/cg/blog" component={CG_Blog}></Route>
-            <Route exact path="/cg/portfolio" component={CG_Portfolio}></Route>
-            <Route exact path="/cg/testimonials" component={CG_Testimonials}></Route>
-          </ThemeProvider>
-          <ThemeProvider theme={gdTheme}>
-            <Route exact path="/gd" component={GD_Home}></Route>
-            <Route exact path="/gd/home" component={GD_Home}></Route>
-            <Route exact path="/gd/about" component={GD_About}></Route>
-            <Route exact path="/gd/blog" component={GD_Blog}></Route>
-            <Route exact path="/gd/portfolio" component={GD_Portfolio}></Route>
-            <Route exact path="/gd/testimonials" component={GD_Testimonials}></Route>
-          </ThemeProvider>
-          <ThemeProvider theme={wdTheme}>
-            <Route exact path="/wd" component={WD_Home}></Route>
-            <Route exact path="/wd/home" component={WD_Home}></Route>
-            <Route exact path="/wd/about" component={WD_About}></Route>
-            <Route exact path="/wd/blog" component={WD_Blog}></Route>
-            <Route exact path="/wd/portfolio" component={WD_Portfolio}></Route>
-            <Route exact path="/wd/testimonials" component={WD_Testimonials}></Route>
-          </ThemeProvider>
+          <Route exact path="/cg" component={CG_Home}></Route>
+          <Route exact path="/cg/home" component={CG_Home}></Route>
+          <Route exact path="/cg/about" component={CG_About}></Route>
+          <Route exact path="/cg/blog" component={CG_Blog}></Route>
+          <Route exact path="/cg/portfolio" component={CG_Portfolio}></Route>
+          <Route exact path="/cg/testimonials" component={CG_Testimonials}></Route>
+          <Route exact path="/gd" component={GD_Home}></Route>
+          <Route exact path="/gd/home" component={GD_Home}></Route>
+          <Route exact path="/gd/about" component={GD_About}></Route>
+          <Route exact path="/gd/blog" component={GD_Blog}></Route>
+          <Route exact path="/gd/portfolio" component={GD_Portfolio}></Route>
+          <Route exact path="/gd/testimonials" component={GD_Testimonials}></Route>
+          <Route exact path="/wd" component={WD_Home}></Route>
+          <Route exact path="/wd/home" component={WD_Home}></Route>
+          <Route exact path="/wd/about" component={WD_About}></Route>
+          <Route exact path="/wd/blog" component={WD_Blog}></Route>
+          <Route exact path="/wd/portfolio" component={WD_Portfolio}></Route>
+          <Route exact path="/wd/testimonials" component={WD_Testimonials}></Route>
         </Switch>
         <Switch>
-          {/*<ThemeProvider theme={cgTheme}>
-            <Route path="/cg" component={CG_FOOTER}></Route>
-          </ThemeProvider>
-          <ThemeProvider theme={gdTheme}>
-            <Route path="/gd" component={GD_FOOTER}></Route>
-          </ThemeProvider>
-          <ThemeProvider theme={wdTheme}>
-            <Route path="/wd" component={WD_FOOTER}></Route>
-</ThemeProvider>*/}
           <Route path="/cg" component={CG_FOOTER}></Route>
           <Route path="/gd" component={GD_FOOTER}></Route>
           <Route path="/wd" component={WD_FOOTER}></Route>
           <Route component={FOOTER}></Route>
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 export default Router;
