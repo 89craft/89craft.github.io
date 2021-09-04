@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
+    "html-webpack-plugin": "^5.3.2",
     "react-scripts": "^4.0.3"
   },
   "scripts": {
