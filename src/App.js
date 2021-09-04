@@ -1,12 +1,12 @@
 import React from 'react';
 //import { makeStyles } from '@material-ui/core';
-import './app.css';
+import './App.css';
 import Router from './router';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './styling/theme.jsx';
-import cgTheme from './styling/computer-graphics/cgTheme.jsx';
-import gdTheme from './styling/game-dev/gdTheme.jsx';
-import wdTheme from './styling/web-dev/wdTheme.jsx';
+import cgTheme from './styling/cg/cgTheme.jsx';
+import gdTheme from './styling/gd/gdTheme.jsx';
+import wdTheme from './styling/wd/wdTheme.jsx';
 
 function getThemeText(url) {
   if (url.startsWith('/cg')) {

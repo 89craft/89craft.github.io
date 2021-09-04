@@ -18,15 +18,15 @@ import globalStyles from '../styling/globalStyling.module.css';
 const menuOptions = [
   {
     label: '3D Graphics',
-    href: '/cg/',
+    href: '/cg',
   },
   {
     label: 'Game Development',
-    href: '/gd/',
+    href: '/gd',
   },
   {
     label: 'Web Development',
-    href: '/wd/',
+    href: '/wd',
   },
   {
     label: 'Blog',
