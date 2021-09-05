@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import CssBaseline from '@material-ui/core/CssBaseline';
-require('dotenv').config();
+//require('dotenv').config();
 
 /*
  * The main react configuration file and the root component of project

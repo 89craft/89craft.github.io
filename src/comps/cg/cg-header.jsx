@@ -18,19 +18,19 @@ import globalStyles from '../../styling/globalStyling.module.css';
 const menuOptions = [
   {
     label: 'Portfolio',
-    href: '/cg/portfolio',
+    href: '/?/cg/portfolio',
   },
   {
     label: 'Testimonials',
-    href: '/cg/testimonials',
+    href: '/?/cg/testimonials',
   },
   {
     label: 'Blog',
-    href: '/cg/blog',
+    href: '/?/cg/blog',
   },
   {
     label: 'About',
-    href: '/cg/about',
+    href: '/?/cg/about',
   },
 ];
 
@@ -63,6 +63,7 @@ const useStyles = makeStyles((theme) => ({
 
 function CG_HEADER() {
   const classes = useStyles();
+  console.log("cg header");
 
   const [state, setState] = useState({
     mobileView: false,

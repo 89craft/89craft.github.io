@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({}));
 
 function Home() {
   const classes = useStyles();
+  console.log("game-dev home");
 
   return (
     <div style={{ textAlign: 'center' }}>

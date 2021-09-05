@@ -62,6 +62,7 @@ const ScrollArrow = () =>{
 /** This is a separated component for the copyright of the website */
 function GD_FOOTER() {
   const classes = useStyles();
+  console.log("game-dev footer");
 
   return (
     <footer className={`${globalStyles.footer}`}>

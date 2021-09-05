@@ -38,6 +38,7 @@ const useStyles = makeStyles((theme) => ({
 
 const ScrollArrow = () =>{
   const classes = useStyles();
+  console.log("web-dev footer");
   const [showScroll, setShowScroll] = useState(false)
 
   const checkScrollTop = () => {
