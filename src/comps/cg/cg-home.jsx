@@ -6,7 +6,7 @@ import {
   Grid,
   Box,
 } from '@material-ui/core';
-import Placeholder from '../../media/computer-graphics/momsIcosphere.png';
+import Placeholder from '../../media/cg/momsIcosphere.png';
 import globalStyles from '../../styling/globalStyling.module.css';
 
 const useStyles = makeStyles((theme) => ({
