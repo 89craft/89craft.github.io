@@ -18,19 +18,19 @@ import globalStyles from '../../styling/globalStyling.module.css';
 const menuOptions = [
   {
     label: 'Portfolio',
-    href: '?/wd/portfolio',
+    href: '/gd/portfolio',
   },
   {
     label: 'Testimonials',
-    href: '?/wd/testimonials',
+    href: '/gd/testimonials',
   },
   {
     label: 'Blog',
-    href: '?/wd/blog',
+    href: '/gd/blog',
   },
   {
     label: 'About',
-    href: '?/wd/about',
+    href: '/gd/about',
   },
 ];
 
@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function WD_HEADER() {
+function GD_HEADER() {
   const classes = useStyles();
 
   const [state, setState] = useState({
@@ -149,7 +149,7 @@ function WD_HEADER() {
     const classes = useStyles();
     return (
       <div>
-        <a href="/wd" style={{ textDecoration: 'none' }}>
+        <a href="/gd" style={{ textDecoration: 'none' }}>
           <Typography variant="h6" component="h1" className={classes.name}>
             R.H.
           </Typography>
@@ -185,4 +185,4 @@ function WD_HEADER() {
   );
 }
 
-export default WD_HEADER;
+export default GD_HEADER;

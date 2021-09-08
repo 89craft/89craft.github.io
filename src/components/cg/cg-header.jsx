@@ -18,19 +18,19 @@ import globalStyles from '../../styling/globalStyling.module.css';
 const menuOptions = [
   {
     label: 'Portfolio',
-    href: '?/gd/portfolio',
+    href: '/cg/portfolio',
   },
   {
     label: 'Testimonials',
-    href: '?/gd/testimonials',
+    href: '/cg/testimonials',
   },
   {
     label: 'Blog',
-    href: '?/gd/blog',
+    href: '/cg/blog',
   },
   {
     label: 'About',
-    href: '?/gd/about',
+    href: '/cg/about',
   },
 ];
 
@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function GD_HEADER() {
+function CG_HEADER() {
   const classes = useStyles();
 
   const [state, setState] = useState({
@@ -149,7 +149,7 @@ function GD_HEADER() {
     const classes = useStyles();
     return (
       <div>
-        <a href="/gd" style={{ textDecoration: 'none' }}>
+        <a href="/cg" style={{ textDecoration: 'none' }}>
           <Typography variant="h6" component="h1" className={classes.name}>
             R.H.
           </Typography>
@@ -185,4 +185,4 @@ function GD_HEADER() {
   );
 }
 
-export default GD_HEADER;
+export default CG_HEADER;
