@@ -119,7 +119,7 @@ const Router = () => {
         <Switch>
           <Route 
             render={({ location }) => '/?'.includes(location.pathname)
-              ? <Redirect to={"/?" + location.pathname} />
+              ? <Redirect to="/?/" />
               : null
             }
           />
