@@ -34,84 +34,88 @@ import WD_Testimonials from './comps/wd/wd-testimonials';
  */
 const Router = () => {
   const history = useHistory(); // for moving you around the site.
-  console.log("pathname = " + window.location);
+  console.log("location = " + window.location);
+  console.log("pathname = " + window.location.pathname);
+  console.log("hostname = " + window.location.hostname);
+  console.log("href = " + window.location.href);
+  console.log("search = " + window.location.search);
   
   return (
-    <BrowserRouter history={history}>
+    <BrowserRouter>
       <Switch>
-        <Route path="/?/cg" component={CG_HEADER}></Route>
+        <Route path="/&/cg" component={CG_HEADER}></Route>
         <Route path="/cg" component={CG_HEADER}></Route>
-        <Route path="/?/gd" component={GD_HEADER}></Route>
+        <Route path="/&/gd" component={GD_HEADER}></Route>
         <Route path="/gd" component={GD_HEADER}></Route>
-        <Route path="/?/wd" component={WD_HEADER}></Route>
+        <Route path="/&/wd" component={WD_HEADER}></Route>
         <Route path="/wd" component={WD_HEADER}></Route>
-        <Route path="/?/" component={HEADER}></Route>
+        <Route path="/&/" component={HEADER}></Route>
         <Route path="/" component={HEADER}></Route>
         <Route path="" component={HEADER}></Route>
       </Switch>
       <div className="App-body">
         <Switch>
           {/* The Switch decides which component to show based on the current URL.*/}
-          <Route path="/?/cg/testimonials" component={CG_Testimonials}></Route>
+          <Route path="/&/cg/testimonials" component={CG_Testimonials}></Route>
           <Route path="/cg/testimonials" component={CG_Testimonials}></Route>
-          <Route path="/?/cg/portfolio" component={CG_Portfolio}></Route>
+          <Route path="/&/cg/portfolio" component={CG_Portfolio}></Route>
           <Route path="/cg/portfolio" component={CG_Portfolio}></Route>
-          <Route path="/?/cg/about" component={CG_About}></Route>
+          <Route path="/&/cg/about" component={CG_About}></Route>
           <Route path="/cg/about" component={CG_About}></Route>
-          <Route path="/?/cg/blog" component={CG_Blog}></Route>
+          <Route path="/&/cg/blog" component={CG_Blog}></Route>
           <Route path="/cg/blog" component={CG_Blog}></Route>
-          <Route path="/?/cg/home" component={CG_Home}></Route>
+          <Route path="/&/cg/home" component={CG_Home}></Route>
           <Route path="/cg/home" component={CG_Home}></Route>
-          <Route path="/?/cg/" component={CG_Home}></Route>
+          <Route path="/&/cg/" component={CG_Home}></Route>
           <Route path="/cg/" component={CG_Home}></Route>
-          <Route path="/?/cg" component={CG_Home}></Route>
+          <Route path="/&/cg" component={CG_Home}></Route>
           <Route path="/cg" component={CG_Home}></Route>
-          <Route path="/?/gd/testimonials" component={GD_Testimonials}></Route>
+          <Route path="/&/gd/testimonials" component={GD_Testimonials}></Route>
           <Route path="/gd/testimonials" component={GD_Testimonials}></Route>
-          <Route path="/?/gd/portfolio" component={GD_Portfolio}></Route>
+          <Route path="/&/gd/portfolio" component={GD_Portfolio}></Route>
           <Route path="/gd/portfolio" component={GD_Portfolio}></Route>
-          <Route path="/?/gd/about" component={GD_About}></Route>
+          <Route path="/&/gd/about" component={GD_About}></Route>
           <Route path="/gd/about" component={GD_About}></Route>
-          <Route path="/?/gd/blog" component={GD_Blog}></Route>
+          <Route path="/&/gd/blog" component={GD_Blog}></Route>
           <Route path="/gd/blog" component={GD_Blog}></Route>
-          <Route path="/?/gd/home" component={GD_Home}></Route>
+          <Route path="/&/gd/home" component={GD_Home}></Route>
           <Route path="/gd/home" component={GD_Home}></Route>
-          <Route path="/?/gd/" component={GD_Home}></Route>
+          <Route path="/&/gd/" component={GD_Home}></Route>
           <Route path="/gd/" component={GD_Home}></Route>
-          <Route path="/?/gd" component={GD_Home}></Route>
+          <Route path="/&/gd" component={GD_Home}></Route>
           <Route path="/gd" component={GD_Home}></Route>
-          <Route path="/?/wd/testimonials" component={WD_Testimonials}></Route>
+          <Route path="/&/wd/testimonials" component={WD_Testimonials}></Route>
           <Route path="/wd/testimonials" component={WD_Testimonials}></Route>
-          <Route path="/?/wd/portfolio" component={WD_Portfolio}></Route>
+          <Route path="/&/wd/portfolio" component={WD_Portfolio}></Route>
           <Route path="/wd/portfolio" component={WD_Portfolio}></Route>
-          <Route path="/?/wd/about" component={WD_About}></Route>
+          <Route path="/&/wd/about" component={WD_About}></Route>
           <Route path="/wd/about" component={WD_About}></Route>
-          <Route path="/?/wd/blog" component={WD_Blog}></Route>
+          <Route path="/&/wd/blog" component={WD_Blog}></Route>
           <Route path="/wd/blog" component={WD_Blog}></Route>
-          <Route path="/?/wd/home" component={WD_Home}></Route>
+          <Route path="/&/wd/home" component={WD_Home}></Route>
           <Route path="/wd/home" component={WD_Home}></Route>
-          <Route path="/?/wd/" component={WD_Home}></Route>
+          <Route path="/&/wd/" component={WD_Home}></Route>
           <Route path="/wd/" component={WD_Home}></Route>
-          <Route path="/?/wd" component={WD_Home}></Route>
+          <Route path="/&/wd" component={WD_Home}></Route>
           <Route path="/wd" component={WD_Home}></Route>
-          <Route path="/?/blog" component={Blog}></Route>
+          <Route path="/&/blog" component={Blog}></Route>
           <Route path="/blog" component={Blog}></Route>
-          <Route path="/?/about" component={About}></Route>
+          <Route path="/&/about" component={About}></Route>
           <Route path="/about" component={About}></Route>
-          <Route path="/?/home" component={Home}></Route>
+          <Route path="/&/home" component={Home}></Route>
           <Route path="/home" component={Home}></Route>
-          <Route path="/?/" component={Home}></Route>
+          <Route path="/&/" component={Home}></Route>
           <Route path="/" component={Home}></Route>
           <Route path="" component={Home}></Route>
         </Switch>
         <Switch>
-          <Route path="/?/cg" component={CG_FOOTER}></Route>
+          <Route path="/&/cg" component={CG_FOOTER}></Route>
           <Route path="/cg" component={CG_FOOTER}></Route>
-          <Route path="/?/gd" component={GD_FOOTER}></Route>
+          <Route path="/&/gd" component={GD_FOOTER}></Route>
           <Route path="/gd" component={GD_FOOTER}></Route>
-          <Route path="/?/wd" component={WD_FOOTER}></Route>
+          <Route path="/&/wd" component={WD_FOOTER}></Route>
           <Route path="/wd" component={WD_FOOTER}></Route>
-          <Route path="/?/" component={FOOTER}></Route>
+          <Route path="/&/" component={FOOTER}></Route>
           <Route path="/" component={FOOTER}></Route>
           <Route path="" component={FOOTER}></Route>
         </Switch>

@@ -45,6 +45,7 @@ const useStyles = makeStyles((theme) => ({
 
 function Home() {
   const classes = useStyles();
+  console.log("home");
 
   return (
     <div>
@@ -61,13 +62,13 @@ function Home() {
             maximus felis tincidunt et.
           </Typography>
           <div className={classes.splashButtonContainer}>
-            <Button variant="contained" href="/cg/" className={classes.splashButton}>
+            <Button variant="contained" href="/&/cg" className={classes.splashButton}>
               3D Graphics
             </Button>
-            <Button variant="contained" href="/gd/" className={classes.splashButton}>
+            <Button variant="contained" href="/&/gd" className={classes.splashButton}>
               Game Development
             </Button>
-            <Button variant="contained" href="/wd/" className={classes.splashButton}>
+            <Button variant="contained" href="/&/wd" className={classes.splashButton}>
               Web Development
             </Button>
           </div>
