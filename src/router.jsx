@@ -42,7 +42,8 @@ const Router = () => {
           <Route path="/cg" component={CG_HEADER}></Route>
           <Route path="/gd" component={GD_HEADER}></Route>
           <Route path="/wd" component={WD_HEADER}></Route>
-          <Route component={HEADER}></Route>
+          <Route path="/" component={HEADER}></Route>
+          <Route path="" component={HEADER}></Route>
         </Switch>
         <div className="App-body">
           <Switch>
@@ -52,29 +53,34 @@ const Router = () => {
             <Route path="/cg/about" component={CG_About}></Route>
             <Route path="/cg/blog" component={CG_Blog}></Route>
             <Route path="/cg/home" component={CG_Home}></Route>
+            <Route path="/cg/" component={CG_Home}></Route>
             <Route path="/cg" component={CG_Home}></Route>
             <Route path="/gd/testimonials" component={GD_Testimonials}></Route>
             <Route path="/gd/portfolio" component={GD_Portfolio}></Route>
             <Route path="/gd/about" component={GD_About}></Route>
             <Route path="/gd/blog" component={GD_Blog}></Route>
             <Route path="/gd/home" component={GD_Home}></Route>
+            <Route path="/gd/" component={GD_Home}></Route>
             <Route path="/gd" component={GD_Home}></Route>
             <Route path="/wd/testimonials" component={WD_Testimonials}></Route>
             <Route path="/wd/portfolio" component={WD_Portfolio}></Route>
             <Route path="/wd/about" component={WD_About}></Route>
             <Route path="/wd/blog" component={WD_Blog}></Route>
             <Route path="/wd/home" component={WD_Home}></Route>
+            <Route path="/wd/" component={WD_Home}></Route>
             <Route path="/wd" component={WD_Home}></Route>
             <Route path="/blog" component={Blog}></Route>
             <Route path="/about" component={About}></Route>
             <Route path="/home" component={Home}></Route>
-            <Route component={Home}></Route>
+            <Route path="/" component={Home}></Route>
+            <Route path="" component={Home}></Route>
           </Switch>
           <Switch>
             <Route path="/cg" component={CG_FOOTER}></Route>
             <Route path="/gd" component={GD_FOOTER}></Route>
             <Route path="/wd" component={WD_FOOTER}></Route>
-            <Route component={FOOTER}></Route>
+            <Route path="/" component={FOOTER}></Route>
+            <Route path="" component={FOOTER}></Route>
           </Switch>
         </div>
       </BrowserRouter>
