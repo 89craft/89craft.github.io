@@ -18,19 +18,19 @@ import globalStyles from '../../styling/globalStyling.module.css';
 const menuOptions = [
   {
     label: 'Portfolio',
-    href: '/!/gd/portfolio',
+    href: '/gd/portfolio',
   },
   {
     label: 'Testimonials',
-    href: '/!/gd/testimonials',
+    href: '/gd/testimonials',
   },
   {
     label: 'Blog',
-    href: '/!/gd/blog',
+    href: '/gd/blog',
   },
   {
     label: 'About',
-    href: '/!/gd/about',
+    href: '/gd/about',
   },
 ];
 
