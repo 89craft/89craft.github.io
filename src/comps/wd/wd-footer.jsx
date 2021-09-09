@@ -62,6 +62,7 @@ const ScrollArrow = () =>{
 /** This is a separated component for the copyright of the website */
 function WD_FOOTER() {
   const classes = useStyles();
+  console.log("wd footer");
 
   return (
     <footer className={`${globalStyles.footer}`}>

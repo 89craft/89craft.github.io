@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({}));
 
 function Home() {
   const classes = useStyles();
+  console.log("cg about");
 
   return (
     <div style={{ textAlign: 'center' }}>

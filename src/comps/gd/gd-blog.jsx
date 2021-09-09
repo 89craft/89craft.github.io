@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({}));
 
 function Home() {
   const classes = useStyles();
+  console.log("gd blog");
 
   return (
     <div style={{ textAlign: 'center' }}>

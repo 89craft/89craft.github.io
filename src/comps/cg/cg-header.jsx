@@ -63,6 +63,7 @@ const useStyles = makeStyles((theme) => ({
 
 function CG_HEADER() {
   const classes = useStyles();
+  console.log("cg header");
 
   const [state, setState] = useState({
     mobileView: false,

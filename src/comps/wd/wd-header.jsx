@@ -63,6 +63,7 @@ const useStyles = makeStyles((theme) => ({
 
 function WD_HEADER() {
   const classes = useStyles();
+  console.log("wd header");
 
   const [state, setState] = useState({
     mobileView: false,

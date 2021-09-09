@@ -63,6 +63,7 @@ const useStyles = makeStyles((theme) => ({
 
 function GD_HEADER() {
   const classes = useStyles();
+  console.log("gd header");
 
   const [state, setState] = useState({
     mobileView: false,

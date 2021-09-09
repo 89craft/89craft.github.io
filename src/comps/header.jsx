@@ -67,6 +67,7 @@ const useStyles = makeStyles((theme) => ({
 
 function HEADER() {
   const classes = useStyles();
+  console.log("header");
 
   const [state, setState] = useState({
     mobileView: false,
