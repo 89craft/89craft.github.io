@@ -120,14 +120,14 @@ const Router = () => {
           <Route path="" component={FOOTER}></Route>
         </Switch>
       </div>
-      {/*<Switch>
+      <Switch>
         <Route 
-          render={({ location }) => '/?'.includes(location.pathname)
-            ? <Redirect to="/?/" />
+          render={({ location }) => '/&'.includes(location.pathname)
+            ? <Redirect to={"/&/" + location.pathname} />
             : null
           }
         />
-        </Switch>*/}
+        </Switch>
     </BrowserRouter>
   );
 };
