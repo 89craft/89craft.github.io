@@ -34,7 +34,7 @@ import WD_Testimonials from './comps/wd/wd-testimonials';
  */
 const Router = () => {
   const history = useHistory(); // for moving you around the site.
-  console.log("pathname = " + window.location.pathname);
+  console.log("pathname = " + window.location);
   
   return (
     <BrowserRouter history={history}>
