@@ -1,0 +1,38 @@
+/*This is my CSS page*/
+
+/*Color Palette*/
+/*White #ffffff*/
+/**/
+
+header {
+  height: 3.5rem;
+}
+body {
+  background-color: #C0C9CC;
+  width: auto;
+}
+footer {
+  background-color: #606462;
+  width: 100%;
+  padding: 1rem;
+}
+
+.page-container {
+  padding-top: 3.5rem;
+}
+.bio-pic {
+  background-image: url('media/bioPic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75%;
+  height: 100vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.no-padding {
+  padding: 0;
+}

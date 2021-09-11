@@ -1,0 +1,29 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# large videos - embed with YouTube?
+/media/cg/34 - ENGR255_Assign5_Dogfight_RyanH.mp4
+/media/gd/20 - Sailing.mp4
+/media/gd/21 - Chunks.mp4
+/media/gd/22 - Full.mp4
+/media/gd/31 - vrSkiSim.mp4
+/media/wd/01 - FinalPresentation.mp4
