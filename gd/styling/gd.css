@@ -1,0 +1,28 @@
+/*CSS for index.html*/
+
+/*Color Palette*/
+/*White #ffffff*/
+/**/
+
+.bio-pic {
+  background-image: url('/media/bioPic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75%;
+  height: 100vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.no-padding {
+  padding: 0;
+}

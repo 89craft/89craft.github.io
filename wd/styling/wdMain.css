@@ -1,0 +1,28 @@
+/*Global CSS for high-level pages*/
+
+/*Overrides*/
+header {
+  height: 3.5rem;
+}
+body {
+  background-color: #ffffff;
+  width: auto;
+}
+footer {
+  background-color: #606060;
+  width: 100%;
+  padding: 1rem;
+}
+.container-fluid {
+  padding: 0 !important;
+}
+.row {
+  margin: 0 !important;
+}
+.col {
+  padding: 0 !important;
+}
+
+.page-container {
+  padding: 0 !important;
+}

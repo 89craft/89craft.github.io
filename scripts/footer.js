@@ -1,3 +1,5 @@
+/*JS for index.html*/
+
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 
