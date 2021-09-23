@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="./styling/wdMain.css">
+    <link rel="stylesheet" type="text/css" href="./styling/wdGlobal.css">
     <link rel="stylesheet" type="text/css" href="./styling/wdAbout.css">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">-->
+    <link rel="stylesheet" type="text/css" href="./styling/wdBootstrap.css">
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script>
@@ -28,9 +28,339 @@
     <!-- Header -->
     <div id="header"></div>
     <!-- Body -->
-    <div class="container-fluid page-container">
-      <h1>Web Dev</h1>
-      <h1>About</h1>
+    <div class="page-container">
+      <div class="container-lg">
+        <h1 style="text-align: center;">Ryan Heal</h1>
+      </div>
+      <div class="container-lg">
+        <div class="row">
+          <div class="col">
+            <div style="flex: none;"></div>
+            <img src="/media/bioPic.jpg" style="height: 75vh; margin: 0 3rem; position: relative; float: right;" class="shadow">
+          </div>
+          <div class="col">
+            <h2>About Me</h2>
+            <div class="row row-cols-1">
+              <div class="col">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  hendrerit enim ut urna vestibulum bibendum. Vestibulum tempor,
+                  ipsum in lobortis fringilla, augue elit tempus odio, sit amet
+                  tincidunt augue nisl et mauris. Etiam tempor mauris nisi, sed
+                  maximus felis tincidunt et.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-lg">
+        <h2>Curriculum Vitae</h2>
+        <div class="row row-cols-1">
+          <div class="col">
+            <h3>Relevant Achievements</h3>
+            <div class="row row-cols-1">
+              <div class="col">
+                <ul>
+                  <li>
+                    <p>Self-studied JavaScript to the level of understanding to create an interactive program for a high school open project.</p>
+                  </li>
+                  <li>
+                    <p>Developed simulation, user interface, and web development abilities through 24 courses involving digital graphic design, web application development, 3D modeling, animation, user experience, and 3D simulation.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="col">
+            <h3>Education</h3>
+            <div class="row row-cols-1">
+              <div class="col">
+                <h4>Interactive Media Developer</h4>
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <p><b>Camosun College</b>, Victoria, B.C.</p>
+                    <p><i>September 2019 – Present</i></p>
+                  </div>
+                  <div class="col">
+                    <p>Relevant courses:</p>
+                    <ul>
+                      <li><p>Web Development,</p></li>
+                      <li><p>Web Applications,</p></li>
+                      <li><p>Digital Content,</p></li>
+                      <li><p>Digital Applications,</p></li>
+                      <li><p>Augmented Reality.</p></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <h4>Computer Science</h4>
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <p><b>University of Victoria</b>, Victoria, B.C.</p>
+                    <p><i>September 2016 - April 2018</i></p>
+                  </div>
+                  <div class="col">
+                    <p>Relevant courses:</p>
+                    <ul>
+                      <li><p>Program Efficiency,</p></li>
+                      <li><p>Sorting Algorithms,</p></li>
+                      <li><p>Programming Languages,</p></li>
+                      <li><p>College-Level Physics.</p></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <h4>High School</h4>
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <p><b>Stelly’s</b>, Victoria, B.C.</p>
+                    <p><i>Graduated June 2016</i></p>
+                  </div>
+                  <div class="col">
+                    <p>Relevant courses:</p>
+                    <ul>
+                      <li><p>Programming 11 & 12.</p></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="col">
+            <h3>Software and Tools</h3>
+            <div class="row row-cols-1">
+              <div class="col">
+                <table>
+                  <thead>
+                    <tr>
+                      <th class="tg-9v8q">Language</th>
+                      <th class="tg-x6qq">Frameworks & Libraries</th>
+                      <th class="tg-x6qq">Databases</th>
+                      <th class="tg-x6qq">Adobe</th>
+                      <th class="tg-x6qq">Microsoft</th>
+                      <th class="tg-x6qq">Misc.</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="tg-0pky">HTML</td>
+                      <td class="tg-phtq">React</td>
+                      <td class="tg-0pky">Oracle</td>
+                      <td class="tg-phtq">XD</td>
+                      <td class="tg-0pky">Word</td>
+                      <td class="tg-phtq">Figma</td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0pky">CSS</td>
+                      <td class="tg-phtq">Node.js</td>
+                      <td class="tg-0pky">MySQL</td>
+                      <td class="tg-phtq">Illustrator</td>
+                      <td class="tg-0pky">Excel</td>
+                      <td class="tg-phtq">Git</td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0pky">JS</td>
+                      <td class="tg-phtq">jQuery</td>
+                      <td class="tg-0pky">MongoDB</td>
+                      <td class="tg-phtq">Photoshop</td>
+                      <td class="tg-0pky">PowerPoint</td>
+                      <td class="tg-phtq">Jira</td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0pky">JSX</td>
+                      <td class="tg-phtq">Bootstrap</td>
+                      <td class="tg-0pky">Apache</td>
+                      <td class="tg-phtq">Premiere Pro</td>
+                      <td class="tg-0pky">Teams</td>
+                      <td class="tg-phtq">Gimp</td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0pky">PHP</td>
+                      <td class="tg-phtq">Material UI</td>
+                      <td class="tg-0pky"></td>
+                      <td class="tg-phtq">After Effects</td>
+                      <td class="tg-0pky"></td>
+                      <td class="tg-phtq">DaVinci Resolve</td>
+                    </tr>
+                    <tr>
+                      <td class="tg-0pky">Swift</td>
+                      <td class="tg-phtq"></td>
+                      <td class="tg-0pky"></td>
+                      <td class="tg-phtq">InDesign</td>
+                      <td class="tg-0pky"></td>
+                      <td class="tg-phtq"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="col">
+            <h3>Projects</h3>
+            <ul>
+              <li>
+                <p>Planning, designing, scripting, and development of assets
+                  for multiple projects for PC, console, and VR using the
+                  Unity game engine in C#.</p>
+              </li>
+              <li>
+                <p>3D models, animated videos, and art using Maya and
+                  Blender.</p>
+              </li>
+              <li>
+                <p>Procedurally generated Earth-like planet map in Java.</p>
+              </li>
+              <li>
+                <p>Interactive programs and simulations in JavaScript.</p>
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="col">
+            <h3>Employment History</h3>
+            <div class="row row-cols-1">
+              <div class="col">
+                <h4>Warehouse Worker</h4>
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <p><b>The Bottle Depot</b>, Victoria, B.C.</p>
+                    <p><i>August 2021 – September 2021</i></p>
+                  </div>
+                  <div class="col">
+                    <ul>
+                      <li>
+                        <p>Talking with customers, sorting products, stacking loaded
+                          pallets, accepting returns at the till, and packing loaded
+                          pallets.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <h4>Warehouse Worker</h4>
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <p><b>Monk Office</b>, Victoria, B.C.</p>
+                    <p><i>April 2017 – August 2020</i></p>
+                  </div>
+                  <div class="col">
+                    <ul>
+                      <li>
+                        <p>Gained more responsibilities within 1 year of total time
+                          on payroll: assembling and loading stable skids at the end
+                          of the day, ensuring all orders were correct and shipped,
+                          and putting away and logging stock.</p>
+                      </li>
+                      <li>
+                        <p>High attention to detail by accurately processing over 500
+                          products and 100 orders per shift.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <h4>Laborer</h4>
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <p><b>Coast Environmental</b>, Victoria, B.C.</p>
+                    <p><i>July 2016 – September 2016</i></p>
+                  </div>
+                  <div class="col">
+                    <ul>
+                      <li>
+                        <p>Gained more responsibility after a month of work, running
+                          deliveries which included creating the route, drop-off, and
+                          returning in a timely manner.</p>
+                      </li>
+                      <li>
+                        <p>Involved some leadership roles when managers were
+                          preoccupied or off site.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="col">
+            <h3>Volunteer Activities</h3>
+            <div class="row row-cols-1">
+              <div class="col">
+                <h4>Event Volunteer</h4>
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <p><b>Help Fill a Dream Foundation</b>, Victoria, B.C.</p>
+                    <p><i>June 2018 – June 2019</i></p>
+                  </div>
+                  <div class="col">
+                    <ul>
+                      <li>
+                        <p>Event setup, directing traffic, game score keeping, and
+                          event clean-up.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="col">
+            <h3>Hobbies and Interests</h3>
+            <div class="row row-cols-1">
+              <div class="col">
+                <h4>Member</h4>
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <p><b>Victoria Boat Building Society</b>, Victoria, B.C.</p>
+                    <p><i>February 2011 – Present</i></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <h4>Past Member</h4>
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <p><b>Royal Canadian Air Cadets</b>, Victoria, B.C.</p>
+                    <p><i>October 2010 – February 2015</i></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-lg">
+        <h2 style="text-align: center;">Contact Me</h2>
+        <div class="bg-primary shadow card email">
+          <p class="m-0">E-Mail: <strong>ryanheal89@gmail.com</strong></p>
+          <!--<form id="email-form" method="post" action="/scripts/email.php" role="form"></form>
+            <div class="mb-3">
+              <label for="inputName" class="form-label">Name:</label>
+              <input type="text" class="form-control" id="inputName" name="name">
+            </div>
+            <div class="mb-3">
+              <label for="inputMail" class="form-label">E-Mail:</label>
+              <input type="text" class="form-control" id="inputMail" name=mail size="50">
+            </div>
+            <div class="mb-3">
+              <label for="inputComment" class="form-label">Comment:</label>
+              <textarea type="text" class="form-control" id="inputComment" name="comment" maxlength="6000" rows="7"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-primary">Reset</button>
+          </form>-->
+        </div>
+      </div>
     </div>
     <!-- Footer -->
     <div id="footer"></div>

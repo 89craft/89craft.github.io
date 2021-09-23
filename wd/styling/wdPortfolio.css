@@ -1,0 +1,23 @@
+/*CSS for wdPortfolio.html*/
+
+h2 {
+  margin: 0.5rem 0.5rem 1rem !important;
+}
+p {
+  margin-bottom: 1.5rem !important;
+}
+.btn {
+  margin-left: 1rem;
+}
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 50vh;
+}
+img {
+  height: 50vh !important;
+  margin: 0 auto !important;
+  position: relative;
+  float: right;
+}

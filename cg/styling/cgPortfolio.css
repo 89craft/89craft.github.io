@@ -1,0 +1,31 @@
+/*CSS for cgPortfolio.html*/
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+p {
+  margin-bottom: 2rem;
+}
+img {
+	display: block;
+  width: 100%;
+  /*max-height: 75vh;*/
+}
+video {
+	display: block;
+  width: 100%;
+  /*max-height: 75vh;*/
+}
+.container-lg {
+  margin: 6rem 0;
+  padding: 0;
+}
+.col-4 {
+  padding-top: 1.5rem;
+}
+.col-6 {
+  padding-top: 1.5rem;
+}
+.col-8 {
+  padding-top: 1.5rem;
+}

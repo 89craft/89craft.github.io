@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <title>Ryan Heal's E-Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./styling/wdGlobal.css">
+    <link rel="stylesheet" type="text/css" href="./styling/wdIndex.css">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">-->
+    <link rel="stylesheet" type="text/css" href="./styling/wdBootstrap.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+        $("#header").load("./comps/wdHeader.html");
+        $("#footer").load("./comps/wdFooter.html");
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+    <!-- Header -->
+    <div id="header"></div>
+    <!-- Body -->
+    <div class="page-container">
+      <div class="row m-0">
+        <div class="col p-0">
+          <div class="splash">
+            <div class="row">
+              <div class="col-12 img" style="
+                background-image: url('/media/wd/woowoo_home.png');
+              "></div>
+              <div class="col-6 img" style="
+                background-image: url('/media/wd/pizzaGo_Moment1.jpg');
+              "></div>
+              <div class="col-6 img" style="
+                background-image: url('/media/wd/pippinOrchards_Moment.jpg');
+              "></div>
+            </div>
+          </div>
+        </div>
+        <div class="col p-0">
+          <div style="padding: 20vh 8vw 0;">
+            <h1 class="mb-4">My name's Ryan Heal</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Donec hendrerit enim ut urna vestibulum bibendum.
+              Vestibulum tempor, ipsum in lobortis fringilla, augue elit tempus
+              odio, sit amet tincidunt augue nisl et mauris. Etiam tempor mauris
+              nisi, sed maximus felis tincidunt et.</p>
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <!-- Footer -->
+    <div id="footer"></div>
+  </body>
+</html>

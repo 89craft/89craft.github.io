@@ -1,0 +1,19 @@
+/*CSS for gdPortfolio.html*/
+
+h1 {
+  margin-bottom: 1rem !important;
+}
+p {
+  margin-bottom: 1.5rem !important;
+}
+.container-sm {
+  margin: 6rem 0;
+  padding: 0 1rem;
+}
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+}

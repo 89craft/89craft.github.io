@@ -1,0 +1,25 @@
+/*CSS for wdTestimonials.html*/
+
+.container-sm {
+  margin: 3rem auto;
+}
+.quote {
+  width: 60vw;
+  text-align: center;
+  margin-top: 6rem;
+}
+.signed {
+  width: fit-content;
+  margin: 0 auto;
+  padding-left: 24rem;
+}
+@media only screen and (max-width: 768px) {
+  .signed {
+    padding-left: 9rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .signed {
+    padding-left: 6rem;
+  }
+}

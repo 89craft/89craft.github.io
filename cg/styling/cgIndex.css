@@ -1,0 +1,36 @@
+/*CSS for cgIndex.html*/
+
+/*Classes*/
+.splash {
+  width: 100%;
+  height: calc(100vh - 3.5rem);
+  padding: 30vh 25vw 0;
+  text-align: center;
+}
+.background {
+  position: absolute;
+  left: 0;
+  top: 3.5rem;
+  height: 100%;
+  width: 100%;
+}
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: calc(50vh - 1.75rem);
+  width: 100%;
+  z-index: -1;
+}
+.one {
+  background-image: url('/media/cg/FurnitureStore_Front.png');
+}
+.two {
+  background-image: url('/media/cg/experimentalRender.png');
+}
+.three {
+  background-image: url('/media/cg/momsIcosphere.png');
+}
+.four {
+  background-image: url('/media/cg/side.png');
+}

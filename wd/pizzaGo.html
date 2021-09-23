@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <title>Ryan Heal's E-Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./styling/wdGlobal.css">
+    <link rel="stylesheet" type="text/css" href="./styling/wdProject.css">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">-->
+    <link rel="stylesheet" type="text/css" href="./styling/wdBootstrap.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+        $("#header").load("./comps/wdHeader.html");
+        $("#footer").load("./comps/wdFooter.html");
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+    <!-- Header -->
+    <div id="header"></div>
+    <!-- Body -->
+    <div class="page-container">
+      <div class="container-sm">
+        <div class="row gy-4 gx-5 mb-5">
+          <div class="col-6 col-md-3">
+            <a target="_blank" href="/media/wd/pizzaGo_Moment1.jpg">
+              <div style="background-image: url('/media/wd/pizzaGo_Moment1.jpg');" class="img shadow"></div>
+            </a>
+          </div>
+          <div class="col-6 col-md-3">
+            <a target="_blank" href="/media/wd/pizzaGo_Moment.jpg">
+              <div style="background-image: url('/media/wd/pizzaGo_Moment.jpg');" class="img shadow"></div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6">
+            <h1>Pizza Go</h1>
+            <p>A prototype for a pizza ordering app using Adobe XD. This was a
+              co-operative project where my partner and I prototyped for
+              different platforms.</p>
+            <p><b>My tasks for this project included:</b></p>
+            <ul>
+              <li><p>Designing the vertical phone pages,</p></li>
+              <li><p>Protoype the phone pages,</p></li>
+              <li><p>Help design the logo, and</p></li>
+              <li><p>Design a color scheme.</p></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6">
+            <a target="_blank" href="/media/wd/pizzaApp_editor.png">
+              <img src="/media/wd/pizzaApp_editor.png" class="shadow">
+            </a>
+          </div>
+          <div class="col-12 col-md-6">
+            <h2>Prototype</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              hendrerit enim ut urna vestibulum bibendum. Vestibulum tempor,
+              ipsum in lobortis fringilla, augue elit tempus odio, sit amet
+              tincidunt augue nisl et mauris.
+            </p>
+          </div>
+          <div class="col-0 col-md-3"></div>
+          <div class="col-12 col-md-6">
+            <video controls class="shadow">
+              <source src="/media/wd/pizzaGo.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="col-0 col-md-3"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer"></div>
+  </body>
+</html>

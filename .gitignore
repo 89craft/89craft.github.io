@@ -21,9 +21,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # large videos - embed with YouTube?
-/media/cg/34 - ENGR255_Assign5_Dogfight_RyanH.mp4
-/media/gd/20 - Sailing.mp4
-/media/gd/21 - Chunks.mp4
-/media/gd/22 - Full.mp4
-/media/gd/31 - vrSkiSim.mp4
-/media/wd/01 - FinalPresentation.mp4
+/media/cg/ENGR255_Assign5_Dogfight_RyanH.mp4
+/media/gd/Sailing.mp4
+/media/gd/Chunks.mp4
+/media/gd/Full.mp4
+/media/gd/vrSkiSim.mp4
+/media/wd/FinalPresentation.mp4
+/media/cg/audioVisualizer_SickAndTired.mp4

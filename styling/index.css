@@ -1,28 +1,36 @@
 /*CSS for index.html*/
 
-/*Color Palette*/
-/*White #ffffff*/
-/**/
-
+/*Classes*/
 .bio-pic {
   background-image: url('/media/bioPic.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 75%;
-  height: 100vh;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 0;
-  padding-bottom: 0;
+  height: calc(100vh - 3.5rem);
 }
-#btn-back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: none;
-}
-
-.no-padding {
+.splash-btn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   padding: 0;
+  margin: 0;
+}
+.splash-btn .btn {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  padding: 0.5rem 3vw !important;
+  width: fit-content !important;
+}
+.splash-btn .one {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+.splash-btn .two {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.splash-btn .three {
+  margin-left: auto !important;
+  margin-right: 0 !important;
 }

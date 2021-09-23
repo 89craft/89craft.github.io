@@ -1,0 +1,129 @@
+/*CSS for wdAbout.html*/
+
+.container-lg {
+  margin: 3rem 0;
+  padding: 0 3rem;
+}
+
+/*.row {
+  margin: 3rem 0 !important;
+  padding: 0 6rem !important;
+}
+.col {
+  margin: 1rem 0 !important;
+  padding: 0 3rem !important;
+}*/
+/*.col*/ .row {
+  margin: 1rem 0 !important;
+  padding: 0 1.5rem !important;
+}
+/*.col*/ .col {
+  margin: 0.25rem 0 !important;
+  padding: 0 1.5rem !important;
+}
+/*.col*/ .col .row {
+  margin: 0.5rem 0 !important;
+  padding: 0 1rem !important;
+}
+/*.col*/ .col .col {
+  margin: 0.25rem 0 !important;
+  padding: 0 1rem !important;
+}
+/*.col*/ .col .col .row {
+  margin: 0.25rem 0 !important;
+  padding: 0 0.5rem !important;
+}
+/*.col*/ .col .col .col {
+  margin: 0.5rem 0 !important;
+  padding: 0 0.5rem !important;
+}
+
+hr {
+  width: 50%;
+}
+.card {
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.email {
+  margin: 1rem auto;
+  width: fit-content;
+}
+
+h1 {
+  margin-bottom: 1.5rem !important;
+}
+h2 {
+  margin-bottom: 1.5rem !important;
+}
+h3 {
+  margin-bottom: 1rem !important;
+}
+h4 {
+  margin-bottom: 0.5rem !important;
+}
+h5 {
+  margin-bottom: 0.25rem !important;
+}
+h6 {
+  margin: 0.5rem 0 0.25rem !important;
+}
+p {
+  margin-bottom: 0.25rem !important;
+}
+ul {
+  margin-top: -0.25rem;
+}
+ul p {
+  margin-bottom: 0;
+}
+
+table  {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+tr {
+  border: none;
+}
+th {
+  border-right: solid 1px black; 
+  border-left: solid 1px black;
+  overflow: hidden;
+  padding: 0.5rem;
+  word-break: normal;
+}
+td {
+  border-right: solid 1px black; 
+  border-left: solid 1px black;
+  overflow: hidden;
+  padding: 0.25rem 0.5rem;
+  word-break: normal;
+}
+table .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top
+}
+table .tg-phtq {
+  background-color: #d2e4fc;
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top
+}
+table .tg-9v8q {
+  background-color: #dae8fc;
+  border-color: #333333;
+  text-align: left;
+  vertical-align: top
+}
+table .tg-x6qq {
+  background-color: #dae8fc;
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top
+}
+table .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top
+}

@@ -1,0 +1,27 @@
+/*$spacer: 16px;*/
+/*$font-size-base: 0.875rem;*/
+
+/*Color Palette*/
+$primary: #ff3b3f;
+$secondary: #caebf2;
+$success: #5cb85c;
+$info: #5bc0de;
+$warning: #f0ad4e;
+$danger: #d9534f;
+$light: #ffffff;
+$dark: #a9a9a9;
+
+$body-bg: #efefef;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

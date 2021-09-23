@@ -1,0 +1,43 @@
+/*Global CSS for Web Dev pages*/
+
+/*Overrides*/
+html, body {
+  width:100%;
+  height:100%;
+  font-family: 'Ubuntu', sans-serif !important;
+}
+header {
+  height: 3.5rem !important;
+}
+.navbar-brand {
+  margin: 0 1rem !important;
+}
+footer {
+  background-color: #606060;
+  height: 5rem;
+  width: 100%;
+  padding: 1rem;
+}
+footer .btn {
+  height: fit-content;
+  margin-top: 0.5rem;
+}
+footer p {
+  width: fit-content !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+
+/*...*/
+.page-container {
+  width: 100%;
+  min-height: calc(100vh - 3.5rem);
+  margin: 0 auto;
+  padding: 0 !important;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
