@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/89craft.github.io/static/css/main.2a65b818.css",
+    "main.js": "/89craft.github.io/static/js/main.e361a0c4.js",
+    "static/js/787.de5d826e.chunk.js": "/89craft.github.io/static/js/787.de5d826e.chunk.js",
+    "index.html": "/89craft.github.io/index.html",
+    "main.2a65b818.css.map": "/89craft.github.io/static/css/main.2a65b818.css.map",
+    "main.e361a0c4.js.map": "/89craft.github.io/static/js/main.e361a0c4.js.map",
+    "787.de5d826e.chunk.js.map": "/89craft.github.io/static/js/787.de5d826e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a65b818.css",
+    "static/js/main.e361a0c4.js"
+  ]
+}
