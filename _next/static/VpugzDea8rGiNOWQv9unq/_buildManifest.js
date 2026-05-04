@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/89craft.github.io//_next/:path+",
+        "destination": "/89craft.github.io/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
