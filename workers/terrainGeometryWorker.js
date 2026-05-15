@@ -342,7 +342,7 @@ self.onmessage = function(e) {
     terrainScaleVertical = e.data.terrainScaleVertical;
     lodBaseGeometrySubdivisions = e.data.lodBaseGeometrySubdivisions;
     noiseMap = e.data.noiseMap;
-    console.log("terrainGeometryWorker -> noiseMap.length:", noiseMap.length);
+    // console.log("terrainGeometryWorker -> noiseMap.length:", noiseMap.length);
     elevationMap = e.data.elevationMap;
     return;
   }
@@ -351,7 +351,7 @@ self.onmessage = function(e) {
   const uvs = [];
   const indices = [];
   const subdivisions = Math.max(lodBaseGeometrySubdivisions / 2 ** lod, 1);
-  console.log(`TerrainGeometryWorker '${x},${z}' -> lod: ${lod}, subdivisions: ${subdivisions}`);
+  // console.log(`TerrainGeometryWorker '${x},${z}' -> lod: ${lod}, subdivisions: ${subdivisions}`);
   const gridX = subdivisions;
   const gridZ = subdivisions;
   const xWorldOffset = x * chunkSize;

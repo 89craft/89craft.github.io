@@ -356,7 +356,7 @@ self.onmessage = function(e) {
   }
   const { x, z, lod } = e.data;
   const resolution = Math.max(lodBaseTextureResolution / 2 ** lod, 1);
-  console.log(`TerrainTextureWorker '${x},${z}' -> lod: ${lod}, resolution: ${resolution}`);
+  // console.log(`TerrainTextureWorker '${x},${z}' -> lod: ${lod}, resolution: ${resolution}`);
   const size = resolution * resolution;
   const colorData = new Uint8Array(size * 4);
   const xWorldOffset = x * chunkSize - chunkSize / 2 + 1 / 2 / resolution;
