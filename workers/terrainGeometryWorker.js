@@ -305,6 +305,14 @@ function percentileToElevation(elevationMap2, percentile) {
       }
     }
   }
+  if (!lowerBound || !upperBound) {
+    return percentile;
+  }
+  if (!lowerBound) {
+    return upperBound.value;
+  } else if (!upperBound) {
+    return lowerBound.value;
+  }
   const t = inverseLerp(lowerBound.fraction, upperBound.fraction, percentile);
   return lerp(lowerBound.value, upperBound.value, t);
 }
